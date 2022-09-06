@@ -1,0 +1,560 @@
+{
+    "product":[
+    {
+        "product_id": 1,
+        "product_name": "Girl's Top",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 2000,
+        "Size": "Small",
+        "Color": "Maroon",
+        "Brand": "Gucci",
+        "Image": "https://i.ibb.co/0Q99s6d/girlstop1.jpg"
+    },
+    {
+        "product_id": 2,
+        "product_name": "Girl's Top",
+        "category": "Fashion",
+        "category_id": 1,
+        "Price": 1500,
+        "Size": "Medium",
+        "Color": "Blue",
+        "Brand": "WEstside",
+        "Image": "https://i.ibb.co/PMkgtwd/girlstop2.jpg"
+    },
+    {
+        "product_id": 3,
+        "product_name": "Laptop",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory_id": 3,
+        "subcategory": "Laptop & Desktop",
+        "Price": 36990,
+        "Color": "Blue",
+        "Brand": "HP",
+        "RAM Capacity": "8 GB",
+        "Processor Generation": "11th Gen",
+        "DEscription": "HP Core i3 11th Gen - (8 GB/256 GB SSD/Windows 11 Home) 14s- dy2506TU Thin and Light Laptop  (14 inch, Natural Silver, 1.46 kg, With MS Office)",
+        "Image": "https://i.ibb.co/PcZCgXS/laptop1.jpg"
+    },
+    {
+        "product_id": 4,
+        "product_name": "Laptop",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory_id": 3,
+        "subcategory": "Laptop & Desktop",
+        "Price": 37990,
+        "Color": "Blue",
+        "Brand": "ASUS",
+        "RAM Capacity": "8 GB",
+        "Processor Generation": "11th Gen",
+        "Description": "ASUS VivoBook 15 (2022) Core i3 11th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 11 Home) X515EA-EJ332WS Thin and Light Laptop  (15.6 inch, Transparent Silver, 1.80 kg, With MS Office)",
+        "Image": "https://i.ibb.co/PcZCgXS/laptop1.jpg"
+    },
+    {
+        "product_id": 8,
+        "product_name": "Printer",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory": "Computers_Peripherals",
+        "subcategory_id": 1,
+        "Price": "12999",
+        "Color": "Black",
+        "Printer_type": "Inkjet",
+        "Printer Output": "Color",
+        "Brand": "Epson",
+        "Description": "Epson L3200 Multi-function Color Printer  (Black, Ink Bottle)",
+        "Image": "https://i.ibb.co/0MpXVFr/printer1.jpg"
+    },
+    {
+        "product_id": 9,
+        "product_name": "Printer",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory": "Computers_Peripherals",
+        "subcategory_id": 1,
+        "Price": "18,299",
+        "Color": "Black",
+        "Printer_type": "Laser",
+        "Printer Output": "Monochrome",
+        "Brand": "Canon",
+        "Description": "Canon ImageCLASS MF3010 Multi-function Monochrome Laser Printer (Color Page Cost: 3 Rs.)  (Black, Toner Cartridge)",
+        "Image": "https://i.ibb.co/0MpXVFr/printer1.jpg"
+    },
+    {
+        "product_id": 10,
+        "product_name": "Monitors",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory": "Computers_Peripherals",
+        "subcategory_id": 1,
+        "Price": 32450,
+        "Color": "Black",
+        "Brand": "Acer",
+        "Display_size(in Inchhes)": "68.6",
+        "Resolution_standard": "FHD 1080p",
+        "Description": "Acer V277 bmipx 27 Full HD (1920 x 1080) IPS Monitor (Display Port, HDMI & VGA Port), Black",
+        "Image": "https://i.ibb.co/0Q99s6d/girlstop1.jpg"
+    },
+    {
+        "product_id": 11,
+        "product_name": "Monitors",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory": "Computers_Peripherals",
+        "subcategory_id": 1,
+        "Price": 32450,
+        "Color": "Black",
+        "Brand": "Acer",
+        "Display_size(in Inchhes)": "54.6",
+        "Resolution_standard": "FHD 1080p",
+        "Description": "Acer B226HQL ymiprx 21.5inch Full HD (1920 x 1080) TN Monitor (Display Port, HDMI & VGA Ports),Black",
+        "Image": "https://i.ibb.co/0Q99s6d/girlstop1.jpg"
+    },
+    {
+        "product_id": 12,
+        "product_name": "Monitors",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory": "Computers_Peripherals",
+        "subcategory_id": 1,
+        "Price": 15499,
+        "Color": "Black",
+        "Brand": "HP",
+        "Display_size(in Inchhes)": "27",
+        "Resolution_standard": "HD",
+        "Description": "HP M Series 23.8 inch Full HD LED Backlit IPS Panel Monitor (M24f)  (Response Time: 5 ms, 75 Hz Refresh Rate)",
+        "Image": "https://i.ibb.co/0Q99s6d/girlstop1.jpg"
+    },
+    {
+        "product_id": 13,
+        "product_name": "Monitors",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory": "Computers_Peripherals",
+        "subcategory_id": 1,
+        "Price": 12819,
+        "Color": "Black",
+        "Brand": "HP",
+        "Display_size(in Inchhes)": "21.5",
+        "Resolution_standard": "HD",
+        "Description": "HP M Series 21.5 inch Full HD LED Backlit IPS Panel Monitor (M22f)  (Response Time: 5 ms, 75 Hz Refresh Rate)",
+        "Image": "https://i.ibb.co/0Q99s6d/girlstop1.jpg"
+    },
+    {
+        "product_id": 14,
+        "product_name": "Printer",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory": "Computers_Peripherals",
+        "subcategory_id": 1,
+        "Price": "12999",
+        "Color": "Black",
+        "Printer_type": "Ink Tank",
+        "Printer Output": "Monochrome",
+        "Brand": "Epson",
+        "Description": "Epson M200 Multi Function Printer  (Black, Ink Bottle)",
+        "Image": "https://i.ibb.co/0MpXVFr/printer1.jpg"
+    },
+    {
+        "product_id": 15,
+        "product_name": "Desktop",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory_id": 3,
+        "subcategory": "Laptop & Desktop",
+        "Price": 179990,
+        "Color": "Blue",
+        "Brand": "APPLE",
+        "RAM Capacity": "RAM 4 GB DDR4",
+        "Processor Generation": "11th Gen",
+        "Description": "APPLE All-in-One Core i5 (6th Gen) (8 GB DDR3/2 TB/Mac OS X Lion/2 GB/27 Inch Screen/MK482HN/A)  (Silver)",
+        "Image": "https://i.ibb.co/PcZCgXS/laptop1.jpg"
+    },
+    {
+        "product_id": 16,
+        "product_name": "Desktop",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory_id": 3,
+        "subcategory": "Laptop & Desktop",
+        "Price": 40990,
+        "Color": "Blue",
+        "Brand": "HP",
+        "RAM Capacity": "RAM 4 GB DDR4",
+        "Processor Generation": "11th Gen",
+        "Description": "HP Pavilion Core i3 (4 GB DDR4/1 TB/Windows 10 Home/21.45 Inch Screen/22C0028IN)  (Black, 39.07 cm x 49.03 cm x 20.41 cm, 5.39 kg)",
+        "Image": "https://i.ibb.co/PcZCgXS/laptop1.jpg"
+    },
+    {
+        "product_id": 17,
+        "product_name": "Desktop",
+        "category": "Electronics",
+        "category_id": 2,
+        "subcategory_id": 3,
+        "subcategory": "Laptop & Desktop",
+        "Price": 40990,
+        "Color": "Blue",
+        "Brand": "ASUS",
+        "RAM Capacity": "RAM 4 GB DDR3",
+        "Processor Generation": "11th Gen",
+        "Description": "ASUS Pentium Quad Core (4 GB DDR3/1 TB/Windows 10 Home/21.5 Inch Screen/V221IDUK-BA175T)  (Black, 398 mm x 514 mm x 47 mm, 4.7 kg)",
+        "Image": "https://i.ibb.co/PcZCgXS/laptop1.jpg"
+    },
+    {
+        "product_id": 18,
+        "product_name": "Table Runners",
+        "subcategory_id": 4,
+        "category_id": 3,
+        "category": "Home & Kitchen",
+        "subcategory": "Living Room Furniture",
+        "Brand": "SEJ by Nisha Gupta",
+        "Price": 989,
+        "color": "Green",
+        "Discount": "15%",
+        "size Table Runner": "30 cm x 122 cm,(Length x Width)",
+        "size Table Placemats ": "30 cm x 45 cm(Length x Width)",
+        "Description": "Set Of 7 Green Abstract Printed Table Placemats & Runner"
+    },
+    {
+        "product_id": 19,
+        "product_name": "Table Runners",
+        "subcategory_id": 4,
+        "category_id": 3,
+        "category": "Home & Kitchen",
+        "subcategory": "Living Room Furniture",
+        "Brand": "SEJ by Nisha Gupta",
+        "Price": 554,
+        "color": "Red and pink",
+        "Discount": "70%",
+        "size Table Runner": "1.2 m x 33 cmnbsp;(length x width)",
+        "Description": "Red & Pink Ethnic Print Rectangular Cotton Table Runner"
+    },
+    {
+        "product_id": 20,
+        "product_name": "Table Runners",
+        "subcategory_id": 4,
+        "category_id": 3,
+        "category": "Home & Kitchen",
+        "subcategory": "Living Room Furniture",
+        "Brand": "Fabindia",
+        "Price": 530,
+        "color": " Cream-coloured and Green",
+        "Discount": "15%",
+        "size Table Runner": " 1.8 m x 0.32 m (Length x Width)",
+        "Description": "Cream-coloured & Green Floral Printed Pure Cotton Table Runners"
+    },
+    {
+        "product_id": 21,
+        "product_name": "Table Runners",
+        "subcategory_id": 4,
+        "category_id": 3,
+        "category": "Home & Kitchen",
+        "subcategory": "Living Room Furniture",
+        "Brand": "Home Centre",
+        "Price": 1599,
+        "color": "Beige, white and gold-colored",
+        "Discount": "15%",
+        "size Table Runner": " 90 cm x 30 cm (Length x Width)",
+        "Description": "Beige & White Embellished Pure Cotton Rectangular Table Runner"
+    },
+    { "product_id": 22,
+        "product_name": "Women Fit and Flare Multicolor Dress",
+        "subcategory_id": 6,
+        "subcategory": "Clothing",
+        "category_id": 1,
+        "category": "Girl's Fashion",
+        "Description": "Women Fit and Flare Multicolor Dress",
+        "image": "https://i.ibb.co/935dPy1/d11.jpg",
+        "Price": 1500,
+        "Brand": "AAYU ",
+        "Discount": 60,
+        "color": [
+            {
+                "color_id": 1,
+                "color_name": "Black"
+            },
+            {
+                "color_id": 2,
+                "color_name": "Blue"
+            },
+            {
+                "color_id": 3,
+                "color_name": "Wine"
+            }
+        ],
+        "size": [
+            {
+                "size-id": 1,
+                "size_type": "XS"
+            },
+            {
+                "size-id": 2,
+                "size_type": "S"
+            },
+            {
+                "size-id": 3,
+                "size_type": "M"
+            },
+            {
+                "size-id": 4,
+                "size_type": "L"
+            },
+            {
+                "size-id": 5,
+                "size_type": "XL"
+            },
+            {
+                "size-id": 6,
+                "size_type": "XXL"
+            }
+        ]
+    },
+    { "product_id": 23,
+        "product_name": "Women Maxi Black Dress",
+        "subcategory_id": 6,
+        "subcategory": "Clothing",
+        "category_id": 1,
+        "category": "Girl's Fashion",
+        "Description": "Women Maxi Black Dress",
+        "image":"https://i.ibb.co/9TgXHbL/d21.jpg",
+        "Price": 500,
+        "Brand": "Purshottam Wala",
+        "Discount": 77,
+        "color": [
+            {
+                "color_id": 1,
+                "color_name": "Black"
+            },
+            {
+                "color_id": 2,
+                "color_name": "Blue"
+            },
+            {
+                "color_id": 3,
+                "color_name": "Wine"
+            }
+        ],
+        "size": [
+            {
+                "size-id": 1,
+                "size_type": "XS"
+            },
+            {
+                "size-id": 2,
+                "size_type": "S"
+            },
+            {
+                "size-id": 5,
+                "size_type": "XL"
+            },
+            {
+                "size-id": 6,
+                "size_type": "XXL"
+            }
+        ]
+    },
+    {
+        "product_id": 24,
+        "product_name": "Women Wrap Pink Dress",
+        "subcategory_id": 6,
+        "subcategory": "Clothing",
+        "category_id": 1,
+        "category": "Girl's Fashion",
+        "Description": "Women Fit and Flare Multicolor Dress",
+        "image": "https://i.ibb.co/zbppH7D/d91.jpg",
+        "Price": 379,
+        "Brand": "Sheetal Associates",
+        "Discount": 81,
+        "color": [
+            {
+                "color_id": 1,
+                "color_name": "Black"
+            },
+            {
+                "color_id": 3,
+                "color_name": "Wine"
+            },
+            {
+                "color_id": 4,
+                "color_name": "Olive Green"
+            }
+        ],
+        "size": [
+            {
+                "size-id": 1,
+                "size_type": "XS"
+            },
+            {
+                "size-id": 2,
+                "size_type": "S"
+            },
+            {
+                "size-id": 3,
+                "size_type": "M"
+            },
+            {
+                "size-id": 4,
+                "size_type": "L"
+            },
+            {
+                "size-id": 5,
+                "size_type": "XL"
+            },
+            {
+                "size-id": 6,
+                "size_type": "XXL"
+            }
+        ]
+    },
+    { "product_id": 24,
+        "product_name": "Women Ethnic Dress",
+        "subcategory_id": 6,
+        "subcategory": "Clothing",
+        "category_id": 1,
+        "category": "Girl's Fashion",
+        "Description": "Women Ethnic Dress Green Dress",
+        "image":"https://i.ibb.co/Csb444k/dress1.jpg",
+        "Price": 679,
+        "Brand": "LIBAS",
+        "Discount": 60,
+        "color": [
+            {
+                "color_id": 5,
+                "color_name": "Green"
+            }
+        ],
+        "size": [
+            {
+                "size-id": 1,
+                "size_type": "XS"
+            },
+            {
+                "size-id": 2,
+                "size_type": "S"
+            },
+            {
+                "size-id": 3,
+                "size_type": "M"
+            },
+            {
+                "size-id": 4,
+                "size_type": "L"
+            },
+            {
+                "size-id": 5,
+                "size_type": "XL"
+            },
+            {
+                "size-id": 6,
+                "size_type": "XXL"
+            }
+        ]
+    },
+    {
+        "product_id": 25,
+        "product_name": "Women Fit and Flare Multicolor Dress",
+        "subcategory_id": 6,
+        "subcategory": "Clothing",
+        "category_id": 1,
+        "category": "Girl's Fashion",
+        "Description": "Women Fit and Flare Multicolor Dress",
+        "image": "https://i.ibb.co/Csb444k/dress1.jpg",
+        "Price": 1500,
+        "Brand": "AAYU ",
+        "Discount": 60,
+        "color": [
+            {
+                "color_id": 1,
+                "color_name": "Black"
+            },
+            {
+                "color_id": 2,
+                "color_name": "Blue"
+            },
+            {
+                "color_id": 3,
+                "color_name": "Wine"
+            }
+        ],
+        "size": [
+            {
+                "size-id": 1,
+                "size_type": "XS"
+            },
+            {
+                "size-id": 2,
+                "size_type": "S"
+            },
+            {
+                "size-id": 3,
+                "size_type": "M"
+            },
+            {
+                "size-id": 4,
+                "size_type": "L"
+            },
+            {
+                "size-id": 5,
+                "size_type": "XL"
+            },
+            {
+                "size-id": 6,
+                "size_type": "XXL"
+            }
+        ]
+    },
+    {  "product_id": 26,
+        "product_name": "Women Fit and Flare Multicolor Dress",
+        "subcategory_id": 6,
+        "subcategory": "Clothing",
+        "category_id": 1,
+        "category": "Girl's Fashion",
+        "Description": "Women Fit and Flare Multicolor Dress",
+        "image": "https://i.ibb.co/Csb444k/dress1.jpg",
+        "Price": 1500,
+        "Brand": "AAYU ",
+        "Discount": 60,
+        "color": [
+            {
+                "color_id": 1,
+                "color_name": "Black"
+            },
+            {
+                "color_id": 2,
+                "color_name": "Blue"
+            },
+            {
+                "color_id": 3,
+                "color_name": "Wine"
+            }
+        ],
+        "size": [
+            {
+                "size-id": 1,
+                "size_type": "XS"
+            },
+            {
+                "size-id": 2,
+                "size_type": "S"
+            },
+            {
+                "size-id": 3,
+                "size_type": "M"
+            },
+            {
+                "size-id": 4,
+                "size_type": "L"
+            },
+            {
+                "size-id": 5,
+                "size_type": "XL"
+            },
+            {
+                "size-id": 6,
+                "size_type": "XXL"
+            }
+        ]
+    }
+]}

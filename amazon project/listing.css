@@ -1,0 +1,257 @@
+header{
+    height:80px;
+      border:2px solid red;
+   background-color:#23242b;
+}
+
+
+#amazonlogo{
+    float:left;
+    border:2px solid red;
+}
+#amazonlogo>img{
+height:80px;
+width:90px;
+
+}
+.nav-item:hover{
+    border:2px solid white;
+}
+#searchbar{
+    height:80px;
+    width:20%;
+      border:2px solid red;
+      float:left;
+      margin-left:25%;
+      
+}
+
+#carticon{
+    float:right;
+    height:100px;
+    width:150px;
+    border:2px solid rgb(218, 28, 132);
+    margin-right:2px;
+   /* display:inline-block;*/
+}
+.feature{
+    float:left;
+    border:2px solid black;
+    margin-left:3%;
+}
+.feature>p{
+    margin-left:15%;
+    margin-top:2%;
+    color:white;
+}
+
+.featureimg{
+    height:50px;
+    width:50px;
+    border:2px solid blue;
+    margin-left:2%;
+}
+footer{
+    height:200px;
+    width:100%;
+    background-color:red;
+    border:2px solid black;
+    margin-top:5%;
+    text-align:center;
+}
+.footdiv{
+    width:30%;
+    border-left:2px solid black;
+    float:left;
+}
+#slidercontainer{
+    height:300px;
+    border:2px solid green;
+}
+#menubar{
+    height:50px;
+    border:2px solid rgb(11, 0, 128);
+}
+#deal{
+    height:490px;
+    border:2px solid green;
+    display:inline-block;
+}
+.carousel-item>img{
+    height:300px !important;
+    width:100%;
+}
+#dealhead{
+    
+}
+.card{
+    border:5px solid #22fd0d !important;
+    height:430px;
+}
+.card>img{
+    height:250px !important;
+    width:100%;
+}
+#categories{
+    display:inline-block;
+    height:405px;
+   border:5px solid rgb(0, 4, 255);
+    width:100%;
+}
+
+/*listing page*/
+#listing{
+    height:90%;
+    width:98%;
+    /*border:2px solid black;*/
+    margin-left:1%;
+    margin-top:2%;
+
+}
+#filter{
+    width:25%;
+    height:auto;
+   /* border:2px solid red;*/
+   box-shadow: 0px 0px 6px -1px rgb(0 0 10);
+    float:left;
+}
+.filter1{
+    margin-left:10px;
+}
+#filter-item{
+    width:75%;
+    height:auto;
+    /*border:2px solid green;*/
+    /*box-shadow:0 0 2px 2px grey;*/
+   
+    float:left;
+}
+.result{
+    height:40%;
+    width:100%;
+/*border:2px solid rgba(0, 132, 255, 0.325);*/
+   /*display:flex;*/
+   margin-top:1%;
+   margin-left:1%;
+   box-shadow: 0px 0px 6px -1px rgb(0 0 10);
+   display:inline-block;
+}
+.resultimage{
+    width:30%;
+    height:100%;
+   /* background-color:#e1e5ea;*/
+   /* border:2px solid black;*/
+    float:left;
+    margin-left:10px;
+}
+.resulttext{
+    margin-left:15px;
+   /* border:2px solid #22fd0d;*/
+    float:left;
+    
+    
+}
+
+/*#cat1{
+    width:23%;
+    /*background-color:aqua;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    /*border:2px solid black;*/
+    box-shadow:0 0 5px 5px grey;
+
+
+}*/
+#cat2{
+    width:23%;
+    /*background-color:red;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    /*border:2px solid black;*/
+ box-shadow:0 0 5px 5px grey;
+}
+#cat3{
+    width:23%;
+    /*background-color:aqua;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    /*border:2px solid black;*/
+    box-shadow:0 0 5px 5px grey;
+    
+}
+
+#cat4{
+    width:23%;
+   /* background-color:red;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    box-shadow:0 0 5px 5px grey;
+}
+#cat11{
+    /*border:2px solid black;*/
+    height:10%%;
+    float:left;
+    width:100%;
+}
+#cat12{
+   /* border:2px solid black;*/
+    height:40%;
+    width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+
+}
+.cat1P{
+    text-align:center;
+}
+
+.cat1Img{
+    height:80%;
+    width:100%;
+}
+#cat32{
+    height:350px;
+    width:100%;
+}
+.cat12Img{
+    /*border:2px solid black;*/
+    height:320px;
+    width:100%;
+}
+
+#cat13{
+    /*border:2px solid black;*/
+    height:40%;
+    width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+#cat14{
+    /*border:2px solid black;*/
+    height:40%;width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+#cat15{
+   /* border:2px solid black;*/
+    height:40%;
+    width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+#cat16{
+    /*border:2px solid black;*/
+    height:10%;
+    float:left;
+    width:100%;
+    margin-top:1%;
+}
+

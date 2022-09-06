@@ -1,0 +1,233 @@
+<html>
+    <head>
+        <title>demo</title>
+        <link rel="stylesheet" href="home1.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+        <script>
+            function loadCoupon()
+{
+    document.getElementById('coupon').style.visibility='visible';
+}
+function closeCoupon()
+{
+    document.getElementById('coupon').style.visibility='hidden';
+}
+        </script>
+    </head>
+    <body>
+<header>
+    <div id="main">
+        <div id="amazonlogo">
+            <img src="../images/images.png"/>
+        </div>
+
+        <div id="searchbar">
+            <select>
+                <option>--Select Item---</option>
+                <option>--Select Item---</option>
+                <button>Submit</button>
+            </select>
+        </div>
+
+        <div id="carticon">
+                <div class="feature">
+                    <img src="../images/wishlisticon.png" class="featureimg"/>
+                    <p>wish</p>
+                </div>                     
+                <div class="feature">
+                    <img src="../images/carticon.png" class="featureimg"/>
+                    <p>Cart</p>
+                </div>     
+        </div>     
+    </div>
+</header>
+<!--coupon code-->
+<div id="coupon">
+    <div class="coupon1">
+        <img src="../images/gift1.jpg" class="gift1"></img>
+        <h2>Congratulations!</h2>
+        <div class="close"><i class="bi bi-x-circle"></i></div>
+        <p>You Can Get</p>
+        <div class="discount">75% Off</div>
+        <p class="here">Here is Your Code</p>
+        <div class="code">CODE1234</div>
+        <a href="#" class="couponbtn">Redeem</a>
+    </div>
+    <button onclick="closeCoupon()">&times</button>
+    
+
+</div>
+<!--Image Slider Division-->
+<div id="slidercontainer">
+    <div class="container">
+        <div class="carousel slide" id="devSlider" data-bs-ride="carousel">
+            <div id="devSlider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="../images/w1.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Tech</h3>
+                        <p>This is slider Image</p>
+                    </div>
+                     </div>
+                    <div class="carousel-item">
+                    <img src="../images/images.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="../images/w1.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div> 
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#devSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#devSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#devSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#devSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  
+                  <button class="carousel-control-next" type="button" data-bs-target="#devSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>        
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--Div for menu bar-->
+<div id="menubar">
+
+</div>
+<!--Deal of day section-->
+<div id="deal">
+    <div id="dealhead">
+        <h1>Deal Of The Day</h1>
+    </div>
+    <div>
+        <div class="card-group">
+                <div class="card card border-primary mb-3" style="max-width: 18rem; ">
+                    <img src="../images/d1.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Watches</a></h5>
+                        <p class="card-text">From Rs. 149 + Extra 10%</p>
+                        <p class="card-text"><small class="text-muted"><a href="#">Shop Now</a></small></p>
+                    </div>
+                </div>
+                
+            
+            
+                <div class="card card border-primary mb-3 style="max-width: 18rem;">
+                <img src="../images/d2.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h6 class="card-title"><a href="#">Callmate Universal Card Mobile Phone Stand for IPhone,Tablet..</a></h6>
+                    <p class="card-text">Rs.199 ,10% Off</p>
+                    <p class="card-text"><small class="text-muted"><a href="#">Shop Now!</a></small></p>  
+                </div>
+                </div>
+            
+            <div class="card card border-primary mb-3 style="max-width: 18rem;">
+                <img src="../images/d3.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="#">Sun Glasses</a></h5>
+                    <p class="card-text">Upto 80% Off</p>
+                    <p class="card-text"><small class="text-muted"><a href="#">Shop Now!</a></small></p>
+                </div>
+    
+            </div>
+            <div class="card card border-primary mb-3 style="max-width: 18rem;">
+                <img src="../images/d4.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="#">Best Deals On Kids Clothing</a></h5>
+                    <p class="card-text">Min. 60% + Extra 10% Off</p>
+                    <p class="card-text"><small class="text-muted"><a href="#">Hurry!Don't Miss Out</a></small></p>  
+                </div>
+    
+            </div>
+            <div class="card card border-primary mb-3 style="max-width: 18rem;">
+                <img src="../images/d5.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="#">Plain Case Covers & Screen Guards</a></h5></h5>
+                    <p class="card-text">From Rs.179</p>
+                    <p class="card-text"><small class="text-muted"><a href="#"></a>Quick Delivery</small></p>
+                </div>
+    
+            </div>
+            <div class="card card border-primary mb-3 style="max-width: 18rem;">
+                <img src="../images/d6.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="#">Tshirts,Pyajamas & Shorts...</a></h5>
+                    <p class="card-text">Min.50% Off</p>
+                    <p class="card-text"><small class="text-muted"><a href="#">Puma,Pantaloon ,Only..</a></small></p>
+                    <button>See More</button>
+                </div>
+    
+            </div>
+        </div> 
+    </div>
+    
+</div>
+<!--Categories section-->
+<div id="categories">
+    <div id="cat1">
+        <div id="cat11">
+a
+        </div>
+        <div id="cat12">
+            <div class="card m1">
+                <img src="../images/d1.png" > 
+                <div class="card-body">               
+                  <p text="card-text">Computers & Accessories</p>
+                </div>
+              </div>
+        </div>
+        <div id="cat13">
+c
+        </div>
+        <div id="cat14">
+d
+        </div>
+        <div id="cat15">
+e
+        </div>
+        <div id="cat16">
+f
+        </div>
+
+    </div>
+    
+    <div id="cat2">
+h
+    </div>
+    <div id="cat3">
+h
+    </div>
+    <div id="cat4">
+h
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy;All Rights Reserved</p>
+    <hr/>
+    <div class="footdiv">
+Contact
+    </div>
+    <div class="footdiv">
+        Contact
+    </div>
+    <div class="footdiv">
+        Contact
+    </div>
+</footer>
+<script>
+    window.onload=console.log("hello");
+    window.onload=loadCoupon();
+</script>
+</body>
+</html>   

@@ -1,0 +1,59 @@
+#listing{
+    height:90%;
+    width:98%;
+    /*border:2px solid black;*/
+    margin-left:1%;
+    margin-top:2%;
+    display:flex;
+
+}
+#filter{
+    width:25%;
+    height:auto;
+    margin-top:10%;
+   /* border:2px solid red;*/
+   box-shadow: 0px 0px 6px -1px rgb(0 0 10);
+    float:left;
+}
+.filterData{
+    margin-left:10px;
+}
+#filterItem{
+    width:70%;
+    height:auto;
+    margin-left:6%;
+    margin-top:10%;
+    border:2px solid green;
+    /*box-shadow:0 0 2px 2px grey;*/
+   display:flex;
+    float:left;
+}
+.result{
+    height:40%;
+    width:100%;
+/*border:2px solid rgba(0, 132, 255, 0.325);*/
+   /*display:flex;*/
+   margin-top:1%;
+   margin-left:1%;
+   box-shadow: 0px 0px 6px -1px rgb(0 0 10);
+   display:inline-block;
+}
+.resultimage{
+    width:30%;
+    height:100%;
+   /* background-color:#e1e5ea;*/
+   /* border:2px solid black;*/
+    float:left;
+    margin-left:10px;
+}
+.resulttext{
+    margin-left:15px;
+   /* border:2px solid #22fd0d;*/
+    float:left;
+    
+    
+}
+.card-img-top{
+    height:320px;;
+
+}

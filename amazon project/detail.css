@@ -1,0 +1,22 @@
+#main{
+    height:500px;
+    /* border:2px solid black; */
+    display:flex;
+    margin-left:5%;
+}
+#imgdiv{
+    height:450px;
+    /* border:2px solid black; */
+    display:left;
+    width:20%;
+}
+#imgdiv>img{
+    height:auto;
+    width:100%;
+}
+#content{
+    margin-left:2%;
+    width:75%;
+    height:auto;
+    /* border:2px solid black; */
+}

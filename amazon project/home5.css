@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.mybody{
+    background-color:black;
+    color:white;
+}
+header{
+    height:500px;
+      border:2px solid red;
+   background-color:#23242b;
+}
+
+
+#amazonlogo{
+    float:left;
+    border:2px solid red;
+}
+#amazonlogo>img{
+height:80px;
+width:90px;
+
+}
+.btn1{
+    border-radius:30px;
+}
+/* #searchbar{
+    height:80px;
+    width:10%;
+      border:2px solid red;
+      float:left;
+      margin-left:25%;
+      
+} */
+
+
+#carticon{
+    float:right;
+    height:100px;
+    width:150px;
+    border:2px solid rgb(218, 28, 132);
+    margin-right:2px;
+   /* display:inline-block;*/
+}
+.feature{
+    float:left;
+    border:2px solid black;
+    margin-left:3%;
+}
+.feature>p{
+    margin-left:15%;
+    margin-top:2%;
+    color:white;
+}
+
+.featureimg{
+    height:50px;
+    width:50px;
+    border:2px solid blue;
+    margin-left:2%;
+}
+footer{
+    height:230px;
+    width:100%;
+    background-color:black;;
+    border:2px solid black;
+    margin-top:1%;
+    /* text-align:center; */
+}
+footer>a{
+    color:white;
+    text-decoration:none;
+}
+.footdiv{
+    width:20%;
+    border:2px solid red;
+    float:left;
+    margin-left:10%;
+    text-decoration:none;
+  
+}
+.footdiv>h6{
+    /* text-align: left; */
+}
+.footdiv>ul{
+    list-style-type:none;
+    padding-left:0px;
+    margin:0px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+}
+.footdiv>ul>li>a{
+    margin-left:2px;
+    text-decoration:none;
+}
+
+/*.footdiv>ul>li>a{
+    margin-left:0px;
+    text-decoration:none;
+    color:white;
+
+}*/
+.footdiv>h6{
+    color:red;
+}
+#slidercontainer{
+    /* height:320px; */
+    /*border:2px solid green;*/
+}
+#menubar{
+    height:50px;
+    border:2px solid rgb(11, 0, 128);
+}
+#deal{
+    height:490px;
+    border:2px solid rgba(0, 128, 0, 0.141);
+    display:inline-block;
+    margin-top:1%;
+    margin-left:2%;
+}
+.carousel-item>img{
+    height:300px !important;
+    width:100%;
+}
+.navmiditem{
+    width:800px;
+    margin-left:90px;
+    margin-top:11px;
+    
+}
+#temp{
+    height:50px;
+    text-align:center;
+    margin-top:15px;
+}
+/* for coupon */
+#coupon{
+    height: 263px;
+    width: 884px;
+    background-color: greenyellow;
+    position: absolute;
+    z-index: 20;
+    
+    margin-top: 125px;
+    margin-left: 403px;
+    background-image:url('images/amazon-today-deals.jpg');
+    /* visibility:hidden; */
+}
+
+
+/* .couponimg{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    height: 260px;
+    z-index:3px;
+} */
+.bi-x-circle{
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 17px;
+    color: #232f3f
+}
+.card{
+   /* border:5px solid #22fd0d !important;*/
+    height:430px;
+    
+}
+.card>img{
+    /* height:250px !important; */
+    width:100%;
+}
+.e{
+    text-decoration:none;
+}
+.t{
+    text-decoration:none;
+
+}
+.d{
+    display:block;
+    margin-left:15px;
+}
+.nav-item:hover{
+    border:2px solid white;
+}
+#categories{
+    display:inline-block;
+    height:405px;
+   /*border:5px solid rgb(0, 4, 255);*/
+    width:100%;
+    margin-top:1%;
+
+}
+
+#cat1{
+    width:23%;
+    /*background-color:aqua;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    /*border:2px solid black;*/
+    box-shadow:0 0 5px 5px grey;
+
+
+}
+#cat2{
+    width:23%;
+    /*background-color:red;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    /*border:2px solid black;*/
+ box-shadow:0 0 5px 5px grey;
+}
+#cat3{
+    width:23%;
+    /*background-color:aqua;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    /*border:2px solid black;*/
+    box-shadow:0 0 5px 5px grey;
+    
+}
+
+#cat4{
+    width:23%;
+   /* background-color:red;*/
+    height:400px;
+    float:left;
+    margin-left:2%;
+    box-shadow:0 0 5px 5px grey;
+}
+#cat11{
+    /*border:2px solid black;*/
+    height:10%;
+    float:left;
+    width:100%;
+}
+#cat12{
+   /* border:2px solid black;*/
+    height:40%;
+    width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+
+}
+.cat1P{
+    text-align:center;
+}
+
+.cat1Img{
+    height:80%;
+    width:100%;
+}
+#cat32{
+    height:350px;
+    width:100%;
+    float:left;
+    margin-top:2%;
+    
+}
+#cat32>p>a{
+    text-decoration:none;
+    text-align: center;
+    margin-left:35%;
+}
+.cat12Img{
+    /*border:2px solid black;*/
+    height:320px;
+    width:100%;
+}
+
+#cat13{
+    /*border:2px solid black;*/
+    height:40%;
+    width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+#cat14{
+    /*border:2px solid black;*/
+    height:40%;width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+#cat15{
+   /* border:2px solid black;*/
+    height:40%;
+    width:45%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;
+}
+#cat16{
+    /*border:2px solid black;*/
+    height:10%;
+    float:left;
+    width:100%;
+    margin-top:1%;
+}
+#cat16>p>a{
+    text-decoration:none;
+}

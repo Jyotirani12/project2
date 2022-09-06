@@ -1,0 +1,448 @@
+<html>
+
+<head>
+    <title>demo</title>
+    <link rel="stylesheet" href="home2.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <script>
+
+        function dark1() {
+
+            let mbody = document.body;
+            mbody.classList.toggle('mybody');
+        }
+
+
+
+    </script>
+    <script src="home2.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="main">
+            <nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="images/images.png" class="rounded-circle" width="60"
+                            height="60" /></a>
+                    <!-- <button onclick="allCategory()">button</button> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navother"
+                        aria-expanded="true" aria-label="Toggle navigation" aria-controls="navother">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navother">
+
+                        <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="bi bi-geo-alt-fill">Deliver</i>
+                                    <span class="d">To India</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="alldro" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+
+
+                                </a>
+                                 All</li>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="allCategories">
+                                    <li><a class="dropdown-item" href="#">Select Product</a></li>
+                                    <!-- <li><a class="dropdown-item" href="#">Electronics</a></li>
+                                    <li><a class="dropdown-item" href="#">Automotive</a></li>
+                                    <li><a class="dropdown-item" href="#">Computers</a></li>
+                                    <li><a class="dropdown-item" href="#">Boys'Fasion</a></li> -->
+
+                                </ul>
+                            </li>
+                            <!-- div for search box in navbar -->
+                            <div class="navmiditem">
+                                <form class="d-flex">
+                                    <input class="form-control form-control-lg" type="search"
+                                        placeholder="search any product" aria-label="search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+
+                        </ul>
+                        <ul class="navbar-nav navbar-right">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hello,Sign In
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Sign In</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"><span
+                                        class="r">Returns</span><span class="r">&Orders</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span class="c"><i class="bi bi-cart-fill">Cart</i></span>
+                                    <!--<span class="c">Cart--> </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div >
+                            <select id="catExtra" onchange="displayProduct()">
+                                <option>Select product</option>
+
+                            </select>
+                            <select id="catExtra2">
+                                <option>products are</option>
+
+                            </select>
+                        </div>
+                       
+                        <button class="btn1" type="button" onclick="dark1()">a</button>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <!-- div for showing city name and Temperature -->
+    <div id="temp"><span id="temp1"></span>
+        <span id="temp2"></span>
+
+    </div>
+    <!-- Div for Coupon -->
+    <div id="coupon">
+        <span><i class="bi bi-x-circle" onclick="closeCoupon()"></i></span>
+        <!-- <img src="images/amazon-today-deals.jpg" alt="coupon image" class="couponimg"> -->
+    </div>
+
+    <!--Image Slider Division-->
+    <div id="slidercontainer">
+        <div class="container-fluid">
+            <div class="carousel slide" id="devSlider" data-bs-ride="carousel">
+                <div id="devSlider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/Capture1.JPG" class="d-block" alt="...">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Capture3.JPG" class="d-block" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Capture2.JPG" class="d-block" alt="...">
+                        </div>
+                    </div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#devSlider" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#devSlider" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#devSlider" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#devSlider"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#devSlider"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--Div for menu bar-->
+    <!--<div id="menubar">
+
+</div>-->
+    <!--Categories section-->
+    <div id="categories">
+        <div id="cat1">
+            <div id="cat11">
+                <h5 style="text-align:center">Gaming Accessories</h5>
+            </div>
+            <div id="cat12">
+
+                <img src="images/1.jpg" alt="" class="cat1Img" />
+                <p class="cat1P">Headsets</p>
+            </div>
+            <div id="cat13">
+                <img src="images/2.jpg" alt="" class="cat1Img" />
+                <p class="cat1P">Keyboard</p>
+            </div>
+            <div id="cat14">
+                <img src="images/3.jpg" alt="" class="cat1Img" />
+                <p class="cat1P">Computer Mouse</p>
+            </div>
+            <div id="cat15">
+                <img src="images/4.jpg" alt="" class="cat1Img" />
+                <p class="cat1P">Chairs</p>
+            </div>
+            <div id="cat16">
+                <p class="cat1P"><a href="../listing/listing.html" target="_blank">See More</a></p>
+            </div>
+
+        </div>
+        <!--shop by category section-->
+        <div id="cat2">
+            <div id="cat11">
+                <h5 style="text-align:center">Shop By Categories</h5>
+            </div>
+            <div id="cat12">
+
+                <a href="#""><img src=" images/5.jpg" alt="" class="cat1Img" /></a>
+                <p class="cat1P">Computer & Accessories</p>
+            </div>
+            <div id="cat13">
+                <img src="images/6.jpg" alt="" class="cat1Img" />
+                <p class="cat1P">Video Games</p>
+            </div>
+            <div id="cat14">
+                <img src="images/7.jpg" alt="" class="cat1Img" />
+                <p class="cat1P">Baby</p>
+            </div>
+            <div id="cat15">
+                <img src="images/8.jpg" alt="" class="cat1Img" />
+                <p class="cat1P">Toys</p>
+            </div>
+            <div id="cat16">
+                <p class="cat1P"><a href="../listing/listing.html" target="_blank">See More</a></p>
+            </div>
+        </div>
+        <div id="cat3">
+            <div id="cat31">
+                <h5 style="text-align:center">Dresses</h5>
+            </div>
+            <div id="cat32">
+
+                <img src="images/9.jpg" alt="" class="cat12Img" />
+                <p class="cat12P"><a href="../listing/listing.html" target="_blank">See More</a></p>
+            </div>
+
+        </div>
+        <div id="cat4">
+            <div id="cat11">
+                <h5 style="text-align:center">Deals On Top Brands</h5>
+            </div>
+            <div id="cat12">
+
+                <img src="images/10.jpg" alt="" class="cat1Img" />
+
+            </div>
+            <div id="cat13">
+                <img src="images/11.jpg" alt="" class="cat1Img" />
+
+            </div>
+            <div id="cat14">
+                <img src="images/12.jpg" alt="" class="cat1Img" />
+
+            </div>
+            <div id="cat15">
+                <img src="images/13.jpg" alt="" class="cat1Img" />
+
+            </div>
+            <div id="cat16">
+                <p class="cat1P"><a href="../listing/listing.html" target="_blank">See More</a></p>
+            </div>
+        </div>
+
+        <!--Deal of day section-->
+        <div id="deal">
+            <div id="dealhead">
+                <h5>Deal Of The Day</h5>
+            </div>
+            <div>
+                <div class="card-group">
+                    <div class="card mb-3" style="max-width: 18rem; ">
+                        <img src="images/d1.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" class="t">Watches</a></h5>
+                            <p class="card-text">From Rs. 149 + Extra 10%</p>
+                            <p class="card-text"><small class="text-muted"><a href="#" class="e">Shop Now</a></small>
+                            </p>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card mb-3 style=" max-width: 18rem;">
+                        <img src="images/d2.png" class="card-img-top img-container" alt="">
+                        <div class="card-body">
+                            <h6 class="card-title"><a href="#" class="t">Callmate Universal Card Mobile Phone Stand for
+                                    IPhone,Tablet..</a></h6>
+                            <p class="card-text">Rs.199 ,10% Off</p>
+                            <p class="card-text"><small class="text-muted"><a href="#" class="e">Shop Now!</a></small>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 style=" max-width: 18rem;">
+                        <img src="images/d3.png" class="card-img-top align-middle mt-5 pt-5 pb-5" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" class="t">Sun Glasses</a></h5>
+                            <p class="card-text">Upto 80% Off</p>
+                            <p class="card-text"><small class="text-muted"><a href="#" class="e">Shop Now!</a></small>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="card mb-3 style=" max-width: 18rem;">
+                        <img src="images/d4.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" class="t">Best Deals On Kids Clothing</a></h5>
+                            <p class="card-text">Min. 60% + Extra 10% Off</p>
+                            <p class="card-text"><small class="text-muted"><a href="#" class="e">Hurry!Don't Miss
+                                        Out</a></small></p>
+                        </div>
+
+                    </div>
+                    <div class="card  mb-3 style=" max-width: 18rem;">
+                        <img src="images/d5.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" class="t">Plain Case Covers & Screen Guards</a></h5>
+                            </h5>
+                            <p class="card-text">From Rs.179</p>
+                            <p class="card-text"><small class="text-muted"><a href="#" class="e"></a>Quick
+                                    Delivery</small></p>
+                        </div>
+
+                    </div>
+                    <div class="card mb-3 style=" max-width: 18rem;">
+                        <img src="images/d6.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="#" class="t">Tshirts,Pyajamas & Shorts...</a></h5>
+                            <p class="card-text">Min.50% Off</p>
+                            <p class="card-text"><small class="text-muted"><a href="#" class="e">Puma,Pantaloon
+                                        ,Only..</a></small></p>
+                            <button>See More</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <footer>
+            <a href="#">Back To Top</a>
+            <hr />
+            <div class="footdiv">
+                <H6>About Us</H6>
+                <ul>
+                    <li>
+                        <a href="footRedirect.html" target="_blank">Blog</a>
+                    </li>
+                    <li>
+                        <a href="footRedirect.html" target="_blank">Amazon Devices</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footdiv">
+                <H6>Amazon Payment Products</H6>
+                <ul>
+                    <li>
+                        <a href="footRedirect.html" target="_blank">Amazon Business Card</a>
+                    </li>
+                    <li>
+                        <a href="footRedirect.html" target="_blank">Shop with Points</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footdiv">
+                <H6>Let Us Help You</H6>
+                <ul>
+                    <li>
+                        <a href="footRedirect.html" target="_blank">Your Account</a>
+                    </li>
+                    <li>
+                        <a href="footRedirect.html" target="_blank">Your Orders</a>
+                    </li>
+                    <li>
+                        <a href="footRedirect.html" target="_blank">Help</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </footer>
+        <ul>
+            <li>
+                <a href="footRedirect.html" target="_blank">Amazon Business Card</a>
+            </li>
+            <li>
+                <a href="footRedirect.html" target="_blank">Shop with Points</a>
+            </li>
+        </ul>
+        <script>
+            function allCategory() {
+                var list = document.getElementById('allCategories');
+                //console.log(li);
+                var li = document.createElement('li');
+                var txt = document.CreateTextNode('Fash');
+                li.appendChild('txt');
+                list.appendChild('list');
+            }
+            let temp = document.getElementById('temp');
+            let temp1=document.getElementById('temp1');
+            
+            function getLocation() {
+
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition)
+                }
+                else {
+                    temp.innerText = "Geo not supported";
+                }
+            }
+            function showPosition(data){
+                let latitude=data.coords.latitude;
+                let longitude=data.coords.longitude;
+                // const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+                // console.log(data);
+                const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+                // console.log(latitude);
+                // temp.innerText=`latitude is ${latitude}`;
+                fetch(url,{method:'GET'})
+                // console.log(apu);
+                .then((res)=>(res.json()))
+                .then((data)=>{
+                    // console.log('hello')
+                    console.log(data) ;
+                    let cityName=data.city.name;
+                    // console.log(cityName) ;
+                    temperature=data.list[0].temp.day;
+                    temp1.innerText=`Your City is ${cityName} & Todays Temperature is ${temperature}Celcius`;
+                
+                })
+            }
+                            
+
+
+           
+
+
+        </script>
+        <script>
+            // window.onload = getCoupon();
+            window.onload = getLocation();
+            window.onload=showCategory();
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+{
+    "dealData":[
+        {
+        "product_id": 27,
+        "product_name": "Watches",
+        "Discount":"From Rs. 149 + Extra 10%",
+        "image":"https://i.ibb.co/Jcn6TyS/d1.png"
+
+
+    },
+    {
+        "product_id": 28,
+        "product_name": "Callmate Universal Card Mobile Phone Stand for IPhone,Tablet..",
+        "Discount":"Rs.199 ,10% Off",
+        "image":"https://i.ibb.co/7kmWdCJ/d2.png"
+    },
+    {
+
+        "product_id": 29,
+        "product_name": "Sun Glasses",
+        "Discount":"Upto 80% Off",
+        "image":"https://i.ibb.co/5RG5wxj/d3.png"
+    },
+    {
+        "product_id": 30,
+        "product_name": "Best Deals On Kids Clothing",
+        "Discount":"Min. 60% + Extra 10% Off",
+        "image":"https://i.ibb.co/LpgJMPq/d4.png"
+    },
+    {
+        "product_id": 31,
+        "product_name": "Plain Case Covers & Screen Guards",
+        "Discount":"From Rs.179",
+        "image":"https://i.ibb.co/6JKt5Pw/d5.png"
+
+    },
+    {
+        "product_id": 32,
+        "product_name": "Tshirts & Dresses..",
+        "Discount":"Min.50% Off",
+        "image":"https://i.ibb.co/9gL54Jz/d6.png"
+    }
+]
+}
+        
